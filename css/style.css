@@ -6,3 +6,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+::-webkit-scrollbar{
+    display: none;
+
+}
+.navbar{
+    & img[alt='logo']{
+        width: 5rem;
+    }
+}
+:is(.nav-link) {
+    color: gold; /* Change the text color to gold */
+    &:hover{
+        color: white;
+    }
+}
+
